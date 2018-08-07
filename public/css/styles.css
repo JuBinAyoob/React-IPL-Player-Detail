@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&subset=latin-ext');
+
+li{
+    color: #b48ba2;
+    cursor: pointer;
+    font-weight: 500;
+    display: block;
+    font-family: 'Playfair Display';
+}
+body{
+    /* background:linear-gradient(-290deg, #febb91, #ff9885, #fb7492, #ef74a0, #aba5bf); */
+    /* background-image: url(https://image.ibb.co/ikxeFS/1274230502.jpg); */
+    background:linear-gradient(45deg, #7CA5B8, #A9DBB8, #FCDE9C);
+    background-size: cover;
+}
+
+.container{
+    /* background-color: #f8f7ff; */
+    margin:0;
+    width: 100%;
+}
+
+#root{
+    margin:0;
+    width: 100%;
+}
+
+.App{
+    margin:0;
+    width: 100%;
+}
+.Header{
+    margin-left: auto;
+    margin-right:auto;
+    width: 41%;
+    display: flex;
+}
+.Logo{
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+}
+.Header-Title{
+    text-align: left;
+    width: 80%;
+    line-height: 63px;
+    font-family: 'Pacifico';
+    text-shadow: -1px 0 #ffff00, 0 1px #ffff00, 1px 0 #ffff00, 0 -1px #ffff00;
+    color:darkcyan;
+}
+.IPL-body{
+    
+    display: grid;
+    grid-template-columns: 20% 75%;
+}
+ .Nav-Sec{
+    padding-left: 5px;
+    min-height: 75vh;
+    background-color: seashell;
+    border-radius: 5px;
+}
+
+.Player-Details{
+    background-color: #E4DFDA;
+    min-height: 75vh;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.Header-Details{
+    width:100%;
+    text-align: center;
+}
+
+.Header-Player{
+    text-align: center;
+}
+.Player-Body{
+    width: 100%;
+}
+.Player-Det-Header{
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.Player-Det{
+    display:grid;
+    grid-template-columns: 50% 50%; 
+    padding-top: 67px;
+}
+.Sub-Title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.Title-Det{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Year-List{
+    padding-left: 20px;
+}
+
+.Team-List{
+    padding-left: 20px;
+}
+
+.Player-List{
+    padding-left: 20px;
+}
